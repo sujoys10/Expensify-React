@@ -11,12 +11,12 @@ export const sortByDate = () =>({
     type: 'SORT_BY_DATE'
 });
 
-export const startDate = (date) =>({
+export const setStartDate = (date) =>({
     type: 'START_DATE',
     date 
 });
 
-export const endDate = (date) =>({
+export const setEndDate = (date) =>({
     type: 'END_DATE',
     date
 });
