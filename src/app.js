@@ -12,17 +12,7 @@ import getVisibleExpenses from './selectors/expenses.js';
 
 const store = configureStore();
 
- store.dispatch(addExpense({description:'water bill',note:'1st bill',amount:'250', createdAt:'1500'}));
-store.dispatch(addExpense({description:'Gas bill',note:'last bill',amount:'450',createdAt:'1005'}));
-store.dispatch(addExpense({description:'Gas bill',note:'last bill',amount:'400',createdAt:'105'}));
-
-
-
-
-const state = store.getState();
- const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
-console.log(visibleExpenses); 
-
+//const state = store.getState();
 
 const jsx =(
     <Provider store={store}>
