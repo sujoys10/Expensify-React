@@ -19,6 +19,7 @@ const jsx =(
       <AppRouter />    
     </Provider>
 );
+console.log(store.getState());
 
 const appRoot = document.getElementById('app');
 
