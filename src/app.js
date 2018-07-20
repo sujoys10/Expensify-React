@@ -13,7 +13,6 @@ import getVisibleExpenses from './selectors/expenses.js';
 const store = configureStore();
 
 //const state = store.getState();
-
 const jsx =(
     <Provider store={store}>
       <AppRouter />    
