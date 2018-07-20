@@ -7,7 +7,6 @@ const ExpenseDashboardPage = () => (
       The dashboard page
       <ExpenseListFilter />
       <ExpenseList />
-      
     </div>
 );
 
