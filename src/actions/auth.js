@@ -13,7 +13,7 @@ export const startLogOut = () => {
 };
 
 export const login = (uid) => ({
-    type: 'LOgIN',
+    type: 'LOGIN',
     uid
 });
 export const logout = () => ({
